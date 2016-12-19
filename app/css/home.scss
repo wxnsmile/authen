@@ -1,0 +1,144 @@
+.ft9 {
+    font-size: 9px;
+}
+
+.ft12 {
+    font-size: 12px;
+}
+
+.ft13 {
+    font-size: 13px;
+}
+
+.ft15 {
+    font-size: 15px;
+}
+
+.tl {
+    text-decoration: line-through
+}
+
+.gold-font {
+    color: #aa8e69
+}
+
+.gray-font {
+    color: #b0b0a3
+}
+
+.lightGray-font {
+    color: #646260
+}
+.icon {
+  display: inline-block;
+  background: url(http://img.58cdn.com.cn/m58/job/img/vip/vip-index-icon.png) no-repeat;
+  background-size: 250px auto;
+}
+.person-member {
+  background-position: -205px 0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 55%;
+  top: 53%;
+}
+.icon-gohome {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  background-position: -226px 0;
+  width: 20px;
+  height: 20px;
+  z-index: 999;
+}
+.header {
+  background: url('//img.58cdn.com.cn/m58/job/img/vip/vip-index-bg.png');
+  width: 100%;
+  height: 157px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 10px 0;
+  position: relative;
+  .person-info {
+    .header-person {
+      position: relative;
+      .person-img {
+        display: block;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        margin: auto;
+        border: solid 3px #ac9169;
+      }
+      .person-name {
+        margin: 6px 0 6px;
+      }
+      span {
+        display: block;
+        color: #b0b0a3;
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .vip-mes>p {
+        text-align: center;
+        line-height: 1.2
+    }
+    .vip-mes p:nth-child(2) {
+        height: .58rem;
+        line-height: .58rem
+    }
+
+  }
+  .isvip {
+    color: #b8b5b2;
+    text-align: center;
+    font-size: 9px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: #423625;
+    width: 42px;
+    height: 14px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 14px;
+    border: solid 1px #5c4d32;
+  }
+}
+.item-wrap {
+  padding: 0;
+  display: flex;
+  border-bottom: solid 1px #f4f4f4;
+  background: white;
+  .itemli {
+    display: inline-flex;
+    width: 107px;
+    height: 86px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    &:nth-child(2) {
+      border-left: solid 1px #f4f4f4;
+      border-right: solid 1px #f4f4f4;
+    }
+    i {
+      height: 25px;
+      display: inline-block;
+      background-size: auto 25px;
+    }
+    .title {
+      font-size: 14px;
+      color: #000;
+      margin-top: 7px;
+      height: 0;
+    }
+    .tip {
+      font-size: 9px;
+      color: #808080;
+      margin-top: 15px;
+      height: 0;
+    }
+  }
+}

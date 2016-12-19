@@ -1,0 +1,14 @@
+/*//告诉babel,编译javascript代码的时候要用这两个presets编译*/
+/*//babel-preset-es2015可以随意使用es6的特性，const、箭头函数等等。*/
+/*//和babel-preset-react用于react的优化，在代码中可以使用react es6 class的写法，同时支持jsx的语法格式。*/
+{
+  "presets": ["es2015","react"],
+  /*在开发的时候才启用HMR和Catch Error*/
+  //组件热加载： 更新代码后，只更新局部的组件，而对全局页面不要求直接强制刷新，保证程序状态的丢失
+  //例如：想要返回刷新前的状态，可能需要一系列的点击操作，会耗费时间。 
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  }
+}
