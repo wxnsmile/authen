@@ -1,0 +1,32 @@
+{
+	"code": 1,
+	"msg": "",
+	"data": {
+		"uid": "13123123123",
+		"authens": {
+			"id": 0,
+			"edu": 0,
+			"qua": 1,
+			"drive": 1,
+			"crime": 1,
+			"sesame":1
+		},
+		"userName": "艾琳娜",
+		"realName":"王大锤",
+		"userface": "img/img-face.jpg",
+		"idNumber": "131231214241234312",
+		"eduTime": "2010.3-2016.9",
+		"school": "耶鲁大学",
+		"degree": "博士",
+		"major": "经济学",
+		"quaName": "英语四级",
+		"quaLevel": "4级",
+		"quaTime": "2010.3-2016.9",
+		"quaNumber": "13123",
+		"crimeTime": "2016.9",
+		"isMumber": 0,
+		"driveAge": 25,
+		"registry": "陕西西安",
+		"isAuth": 1
+	}
+}
