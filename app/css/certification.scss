@@ -1,0 +1,159 @@
+.authen-list {
+    margin-bottom: 2.4rem;
+}
+.authen-box {
+  margin-bottom: .266667rem;
+  padding: 0 .4rem;
+  background-color: #fff;
+  height: 2.373333rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.icon-box {
+  width: 1.96rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: gray;
+}
+
+.auchen-icon {
+    background-image: url(http://img.58cdn.com.cn/crop/biz/m/personAuthen/img/sprites-authen-icons.png?1);
+    background-repeat: no-repeat;
+    background-size: 1.133333rem 16.506667rem;
+    display: block;
+}
+.auchen-icon-id-authened {
+    width: 1.013333rem;
+    height: .733333rem;
+    background-position: -.066667rem -5.88rem;
+}
+.authen-box .icon-box {
+    font-size: 12px;
+}
+.authen-box .icon-box i {
+    margin-bottom: .133333rem;
+}
+
+.authen-box .info-box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+.authen-box .info-box h1 {
+    font-size: 16px;
+}
+.authen-box .info-box p {
+  font-size: 12px;
+}
+.authen-box .info-box p span {
+    color: #333;
+}
+//input页面样式
+.authen-header {
+    height: 1.6rem;
+    background-color: #aa8e69;
+    padding: 0 .4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+}
+.auchen-icon {
+    background-image: url(http://img.58cdn.com.cn/crop/biz/m/personAuthen/img/sprites-authen-icons.png?1);
+    background-repeat: no-repeat;
+    background-size: 1.133333rem 16.506667rem;
+    display: block;
+}
+.auchen-icon-edu-authened {
+    width: .946667rem;
+    height: .866667rem;
+    background-position: -.066667rem -3.053333rem;
+}
+.authen-header span {
+    padding: .373333rem;
+}
+.input-list {
+    background-color: #fff;
+    padding: 0 .4rem;
+    margin-bottom: .4rem;
+}
+.input-list .input-box {
+    border-bottom: 1px solid #F0F0F0;
+    height: 1.666667rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333;
+}
+.input-list .input-box input[type=text], .input-list .input-box input[type=number] {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: .4rem;
+    font-size: inherit;
+}
+.input-list .error-msg {
+    display: none;
+    padding: .133333rem 0;
+    color: #f23231;
+}
+.warning-msg {
+    text-align: center;
+    color: #f23231;
+}
+.button-box, .open-member {
+    width: 9rem;
+    height: 2.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+.button-box button, .open-member button, .button-box a, .open-member a {
+    display: inline-block;
+    height: 1.066667rem;
+    width: 9rem;
+    line-height: 1.066667rem;
+    text-align: center;
+    background-color: #262626;
+    border-radius: .066667rem;
+    color: #aa8e69;
+}
