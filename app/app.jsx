@@ -7,6 +7,7 @@ import Resumetop from './component/Resumetop';
 import Qzb from './component/Qzb';
 import Certification from './component/Certification';
 
+import Input from './component/Certification/input';
 // 路由
 // const rootRoute = {
 //   childRoutes: [{
@@ -41,5 +42,9 @@ ReactDOM.render((
       <Route path='resumetop' component={Resumetop}/>
       <Route path='hjbq' component={Qzb}/>
       <Route path='certification' component={Certification}/>
+
+      <Route path='input' component={Input}/>
+
+
   </Router>
 ),document.getElementById('app'))
