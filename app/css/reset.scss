@@ -8,6 +8,13 @@ a {
 body {
   background: #f3f3f3;
 }
+input, button {
+    outline: 0;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 #app {
   padding: 0 15px;
 }
